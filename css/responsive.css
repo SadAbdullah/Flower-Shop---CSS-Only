@@ -6,10 +6,54 @@
 /* -------- (desktops, 992px and up) ------- */
 
 @media (min-width: 992px) and (max-width: 1199.99px) { 
+
     .container {
         width: 95%;
     }
 
+    header {
+        padding: 96px 0;
+    }
+
+    .header-container {
+        flex-direction: column-reverse;
+    }
+
+    .header-title {
+        font-size: 56px;
+    }
+
+    .header-img img {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .hot-deal-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .advertise-container {
+        flex-direction: column;
+        gap: 56px;
+    }
+
+
+    .advertise-info {
+        text-align: center;
+    } 
+
+    .advertise-img img {
+        width: 318px;
+        height: auto;
+    }
+
+
+    .action-container {
+        padding: 126px 156px;
+    }
     
 }
 
@@ -22,6 +66,8 @@
     .container {
         width: 80%;
     }
+
+    
 }
 
 
