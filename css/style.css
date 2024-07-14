@@ -219,3 +219,91 @@ header {
     width: 535px;
     height: auto;
 }
+
+
+/* ----------------
+            4.Features CSS style
+------------------------------------------------ */
+/* ------------ Features area --------- */
+
+.features {
+    padding: 126px 0;
+}
+
+
+#features-description,
+#insta-description,
+#action-description,
+#footer-description {
+    width: 594px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
+.features-content-box {
+    width: 33%;
+    text-align: center;
+}
+
+
+.freatures-img-1 {
+    padding: 96px 26px 0;
+    border-radius: 50% 50% 0 0;
+    background: var(--img-box-bg);
+}
+
+.freatures-img-1 img {
+    width: 88%;
+    height: 356px;
+    display: block;
+    margin: 0 auto;
+}
+
+.freatures-img-2 {
+    padding: 96px 26px 0;
+    border-radius: 50% 50% 0 0;
+    background: var(--img-box-bg);
+}
+
+.freatures-img-2 img {
+    width: 100%;
+    height: 356px;
+    display: block;
+    margin: 0 auto;
+}
+
+.freatures-img-3 {
+    padding: 96px 16px 0;
+    border-radius: 50% 50% 0 0;
+    background: var(--img-box-bg);
+}
+
+.freatures-img-3 img {
+    width: 90%;
+    height: 356px;
+    display: block;
+    margin: 0 auto;
+}
+
+.features-link {
+    color: var(--link-color);
+    display: inline-block;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.features-link:hover {
+    text-decoration: underline;
+}
+
