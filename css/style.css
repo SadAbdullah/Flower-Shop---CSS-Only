@@ -1,9 +1,9 @@
 /* 
 Template Name: Flower Shop
-Template URL: https://darkcorner.inc
+Template URL: https://webgrafixy.com/web-solution/
 Description: Flower Shop - CSS only Responsive template
     Author Name: Sad Abdullah
-    Author Website: 
+    Author Website: https://github.com/SadAbdullah
     Version: 1.0
 
 ------------ table of contents ---------- ///
@@ -16,15 +16,15 @@ Description: Flower Shop - CSS only Responsive template
     1.3 Typography
     1.4 Buttons
 
-2. Navbar
-3. Header
-4. Features
-5.Key-services
-6.Hot deal
-7.Advertise
-8.Instagram
-9 Call to Action
-10 Footer
+2.  Navbar
+3.  Header
+4.  Features
+5.  Key-services
+6.  Hot deal
+7.  Advertise
+8.  Instagram
+9   Call to Action
+10  Footer
 
 11. Responsive
 -----------------
@@ -185,4 +185,37 @@ nav ul li .fa-solid {
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
+}
+
+
+/* ---------------
+            3.Header CSS style
+------------------------------------------------ */
+/* ------------- Header area --------- */
+
+header {
+    background-color: var(--bg-primary);
+}
+
+.header-container {
+    display: flex;
+    gap: 96px;
+    align-items: center;
+}
+
+.header-title {
+    color: var(--heading-color);
+    font-size: 65px;
+    font-weight: 800;
+    margin-top: -25px;
+}
+
+#header-description {
+    margin: 39px 0 32px;
+    
+}
+
+.header-img img {
+    width: 535px;
+    height: auto;
 }
