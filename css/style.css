@@ -307,3 +307,39 @@ header {
     text-decoration: underline;
 }
 
+
+
+/* ------------------
+            5.Key-services CSS style
+------------------------------------------------ */
+/* ------------- Key-services area --------- */
+
+.key-service {
+    padding-bottom: 96px;
+}
+
+.key-service-container {
+    padding: 86px 56px;
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key-service-column {
+    text-align: center;
+}
+
+.key-service-column img {
+    width: 86px;
+    height: auto;
+}
+
+.key-service-column .key-service-txt {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+}
