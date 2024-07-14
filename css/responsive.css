@@ -67,7 +67,68 @@
         width: 80%;
     }
 
-    
+    header {
+        padding: 96px 0;
+    }
+
+    .header-container {
+        flex-direction: column-reverse;
+    }
+
+    .header-title {
+        font-size: 56px;
+    }
+
+    .header-img img {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .features-container {
+        flex-direction: column;
+    }
+
+    .features-content-box {
+        width: 100%;
+    }
+
+
+    .hot-deal-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .advertise-container {
+        flex-direction: column;
+        gap: 56px;
+    }
+
+
+    .advertise-info {
+        text-align: center;
+    } 
+
+    .advertise-img img {
+        width: 318px;
+        height: auto;
+    }
+
+
+    .action-container {
+        padding: 126px 156px;
+    }
+
+    .instagram-container {
+        flex-direction: column;
+    }
+
+    .action-container {
+        padding: 126px 0;
+    }
+
+
 }
 
 
@@ -77,6 +138,71 @@
 @media (min-width: 576px) and (max-width: 767.99px) { 
     .container {
         width: 96%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    header {
+        padding: 96px 0;
+    }
+
+    .header-container {
+        flex-direction: column-reverse;
+    }
+
+    .header-title {
+        font-size: 56px;
+    }
+
+    .header-img img {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .features-container {
+        flex-direction: column;
+    }
+
+    .features-content-box {
+        width: 100%;
+    }
+
+
+    .hot-deal-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .advertise-container {
+        flex-direction: column;
+        gap: 56px;
+    }
+
+
+    .advertise-info {
+        text-align: center;
+    } 
+
+    .advertise-img img {
+        width: 318px;
+        height: auto;
+    }
+
+
+    .action-container {
+        padding: 126px 156px;
+    }
+
+    .instagram-container {
+        flex-direction: column;
+    }
+
+    .action-container {
+        padding: 126px 0;
     }
 }
 
@@ -88,5 +214,70 @@
     .container {
         width: 86%;
         margin: 0 auto;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    header {
+        padding: 96px 0;
+    }
+
+    .header-container {
+        flex-direction: column-reverse;
+    }
+
+    .header-title {
+        font-size: 56px;
+    }
+
+    .header-img img {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .features-container {
+        flex-direction: column;
+    }
+
+    .features-content-box {
+        width: 100%;
+    }
+
+
+    .hot-deal-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .advertise-container {
+        flex-direction: column;
+        gap: 56px;
+    }
+
+
+    .advertise-info {
+        text-align: center;
+    } 
+
+    .advertise-img img {
+        width: 318px;
+        height: auto;
+    }
+
+
+    .action-container {
+        padding: 126px 156px;
+    }
+
+    .instagram-container {
+        flex-direction: column;
+    }
+
+    .action-container {
+        padding: 126px 0;
     }
 }
